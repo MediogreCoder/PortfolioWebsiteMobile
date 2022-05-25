@@ -1,0 +1,41 @@
+.aboutArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../images/white\ infinity.png');
+  background-position: right;
+  background-color: #1D1D1D;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.skillsDiv{
+  font-size: 35px;
+  width: auto;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.skillsBox{
+display: flex;
+flex-direction: row;
+width: auto;
+}
+
+
+
+.skillLogo{
+  height: 80px;
+  transition-duration: 1s;
+}
+
+.skillLogo:hover{
+  transform: scale(1.4);
+}
+

@@ -1,0 +1,52 @@
+.homeArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../images/black\ infinity.png');
+  background-position: right;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+#welcomemsg{
+  font-size: 25px;
+}
+
+.homeDiv{
+  font-size: 40px;
+  color: #1D1D1D;
+  margin-right: 200px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .homeArea{
+  background-size: cover;
+  background-position-x: 50px;
+  background-position-y: 350px;
+  }
+
+  #welcomemsg{
+    font-size: 15px;
+  }
+  
+  .homeDiv{
+    font-size: 20px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .homeArea{
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 250px;
+    }
+  .homeDiv{
+    margin-left: 50px;
+  }
+}
