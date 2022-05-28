@@ -20,7 +20,7 @@
     text-decoration: none;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     .mainContent{
       position: absolute;
       left: 0px;

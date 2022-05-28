@@ -47,9 +47,9 @@ function App() {
         <Home
             homeRef={homeRef}
           />
-            {/* <About
+            <About
             aboutRef={aboutRef}
-          /> */}
+          />
         </div>
         </div>
     </div>

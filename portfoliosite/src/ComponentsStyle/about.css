@@ -15,11 +15,21 @@
   color: whitesmoke;
 }
 
+.aboutDiv{
+  font-size: 30px;
+  width: 60%;
+  color: whitesmoke;
+  margin-right: 10%;
+  text-align: left;
+}
+
 .skillsDiv{
   font-size: 35px;
-  width: auto;
+  width: 60%;
   color: whitesmoke;
+  margin-right: 10%;
   text-align: left;
+
 }
 
 .skillsBox{
@@ -39,3 +49,33 @@ width: auto;
   transform: scale(1.4);
 }
 
+@media only screen and (max-width: 650px) {
+  .aboutArea{
+    background-size: cover;
+    background-position-x: 50px;
+    background-position-y: 350px;
+    }
+  .aboutDiv{
+    font-size: 17px;
+    width: 70%;
+  }
+  .skillsDiv{
+    font-size: 17px;
+    width: 70%;
+  }
+  .skillLogo{
+    height: 50px;
+  }
+
+  .skillsBox{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutArea{
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 250px;
+    }
+}
