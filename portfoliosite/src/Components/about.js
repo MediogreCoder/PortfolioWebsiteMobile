@@ -4,8 +4,6 @@ import '../ComponentsStyle/about.css'
 export default function About(props) {
   const aboutRef = props.aboutRef
   
-
-
   return (
     <div ref={aboutRef} class="aboutArea">
       <div class="aboutDiv">

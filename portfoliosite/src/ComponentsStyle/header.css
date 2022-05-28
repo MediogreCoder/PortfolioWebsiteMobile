@@ -101,7 +101,10 @@
       justify-content: space-between;
       height: 10vh;
       width: 100vw;
+      z-index: 99;
       }
+
+
       .mainLogo{
         object-fit: cover;
         height: 10vh;
