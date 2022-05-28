@@ -83,7 +83,7 @@ color: #1D1D1D;
     background-position-y: 350px;
   }
   .projectBox{
-    width: 400px;
+    width: 500px;
   }
   .projectDiv{
     font-size: 17px;
@@ -99,5 +99,9 @@ color: #1D1D1D;
     background-size: cover;
     background-position-x: -75px;
     background-position-y: 250px;
+    }
+
+    .projectBox{
+      width: 375px;
     }
 }
