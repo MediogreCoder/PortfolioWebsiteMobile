@@ -17,6 +17,7 @@ font-size: 40px;
 
 .projectDiv{
 color: #1D1D1D;
+height: 80%;
 }
 
 .projectBox{
@@ -87,6 +88,7 @@ color: #1D1D1D;
   }
   .projectDiv{
     font-size: 17px;
+    height: 50%;
   }
 
   .projTitle{
