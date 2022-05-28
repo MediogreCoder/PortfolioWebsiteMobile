@@ -1,6 +1,6 @@
-import Logo from "../images/E-logos.jpeg"
-import LinkedinLogo from "../images/new-linkedin-logo-white-black-png.png"
-import GitHubLogo from '../images/github-logo.png'
+import Logo from "../images/Evan_Logo_Blue_white.png"
+import LinkedinLogo from "../images/new-linkedin-logo-white-png.png"
+import GitHubLogo from '../images/github-logo-white.png'
 import "../ComponentsStyle/header.css"
 
 export default function Header(props) {

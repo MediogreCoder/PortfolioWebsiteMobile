@@ -4,21 +4,20 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url('../images/white\ infinity.png');
+  /* background-image: url('../images/white\ infinity.png'); */
   background-position: right;
-  background-color: #1D1D1D;
   background-size: cover;
   background-position-x: 400px;
   background-position-y: 20px;
   background-repeat: no-repeat;
   font-size: 30px;
-  color: whitesmoke;
+ 
 }
 
 .aboutDiv{
   font-size: 30px;
   width: 60%;
-  color: whitesmoke;
+  color: #1D1D1D;
   margin-right: 10%;
   text-align: left;
 }
@@ -26,7 +25,7 @@
 .skillsDiv{
   font-size: 35px;
   width: 60%;
-  color: whitesmoke;
+  color: #1D1D1D;
   margin-right: 10%;
   text-align: left;
 
