@@ -3,6 +3,10 @@ import React, { useRef } from 'react';
 import Header from './Components/header';
 import Home from './Components/home';
 import About from './Components/about';
+import Project from './Components/project';
+import Contact from './Components/contact';
+
+
 
 function App() {
   const homeRef = useRef()
@@ -49,6 +53,13 @@ function App() {
           />
             <About
             aboutRef={aboutRef}
+          />
+         <Project
+            projectRef={projectRef}
+          />
+          <Contact
+            contactRef={contactRef}
+            handleHomeClick={handleHomeClick}
           />
         </div>
         </div>

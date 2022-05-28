@@ -1,8 +1,7 @@
-.aboutArea{
+.contactArea{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   height: 100vh;
   background-image: url('../images/white\ infinity.png');
   background-position: right;
@@ -11,67 +10,44 @@
   background-position-x: 400px;
   background-position-y: 20px;
   background-repeat: no-repeat;
-  font-size: 30px;
-  color: whitesmoke;
 }
 
-.aboutDiv{
-  font-size: 30px;
-  width: 60%;
+.contactDiv{
+  width: 50%;
   color: whitesmoke;
-  margin-right: 10%;
   text-align: left;
 }
 
-.skillsDiv{
-  font-size: 35px;
-  width: 60%;
+a{
+  text-decoration: none;
   color: whitesmoke;
-  margin-right: 10%;
-  text-align: left;
-
 }
 
-.skillsBox{
-display: flex;
-flex-direction: row;
-width: auto;
+a:hover {
+  text-decoration: underline;
 }
 
-.skillLogo{
-  height: 80px;
-  transition-duration: 1s;
+#contactTitle{
+  font-size: 40px;
 }
 
-.skillLogo:hover{
-  transform: scale(1.4);
+#backhome:hover{
+  color: whitesmoke;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 650px) {
-  .aboutArea{
+  .contactArea{
     background-size: cover;
     background-position-x: 50px;
     background-position-y: 350px;
-    }
-  .aboutDiv{
-    font-size: 17px;
-    width: 70%;
-  }
-  .skillsDiv{
-    font-size: 17px;
-    width: 70%;
-  }
-  .skillLogo{
-    height: 50px;
+    font-size: 10px;
   }
 
-  .skillsBox{
-    flex-wrap: wrap;
-  }
 }
 
 @media only screen and (max-width: 450px) {
-  .aboutArea{
+  .contactArea{
     background-size: cover;
     background-position-x: -75px;
     background-position-y: 250px;

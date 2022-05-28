@@ -1,0 +1,103 @@
+.projectArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../images/black\ infinity.png');
+  background-position: right;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+.projTitle{
+font-size: 40px;
+}
+
+.projectDiv{
+color: #1D1D1D;
+}
+
+.projectBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  width: 1500px;
+}
+
+#sunny{
+  height:85%;
+  width: 85%;
+  object-fit: cover;
+  border: 2px solid black;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+
+}
+
+
+#poke{
+  height:85%;
+  width: 85%;
+  object-fit: cover;
+  border: 2px solid black;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+
+}
+
+#sev{
+  height:85%;
+  width: 85%;
+  object-fit: cover;
+  border: 2px solid black;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+
+
+}
+
+.projectSocialDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projSocial{
+ height: 75px;
+ width: auto;
+ transition-duration: .5s;
+}
+
+.projSocial:hover {
+ transform: scale(1.5);
+}
+
+#langtitle{
+  text-shadow: 1px 1px 0 whitesmoke;
+}
+
+@media only screen and (max-width: 650px) {
+  .projectArea{
+    background-size: cover;
+    background-position-x: 50px;
+    background-position-y: 350px;
+  }
+  .projectBox{
+    width: 400px;
+  }
+  .projectDiv{
+    font-size: 17px;
+  }
+
+  .projTitle{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .projectArea{
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 250px;
+    }
+}
