@@ -36,8 +36,13 @@ a:hover {
 @media only screen and (max-width: 650px) {
   .contactArea{
     background-size: cover;
-    background-position-x: 0px;
+    background-position-x: -267px;
+    background-position-y: 45px;
     font-size: 10px;
+  }
+
+  #contactTitle{
+    font-size: 25px;
   }
 
 }
