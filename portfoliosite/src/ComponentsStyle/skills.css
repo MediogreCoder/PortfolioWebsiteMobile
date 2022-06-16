@@ -5,7 +5,9 @@
   justify-content: center;
   height: 100vh;
   background-color: brown;
-  background-color: rgba(244,191,28,255);}
+  background-color: rgba(244,191,28,255);
+  font-size: 20px;
+  color: whitesmoke}
 
   .monitorAndSkills{
 display:flex;
@@ -44,7 +46,8 @@ align-items: center;
 
     .skillsDiv{
       font-size: 17px;
-      width: 70%;
+      width: 80%;
+      padding-bottom: 50px;
     }
     .skillLogo{
       height: 30px;
@@ -57,6 +60,22 @@ align-items: center;
 
     .skillsMonitor{
       height: 60vh;
+    }
+
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .skillsMonitor{
+      height: 40vh;
+    }
+
+    .skillLogo{
+      height: 23px;
+    }
+
+    .skillLogo:hover{
+      transform: scale(1.8);
     }
 
   }
