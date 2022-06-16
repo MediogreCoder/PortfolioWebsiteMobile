@@ -8,11 +8,11 @@ export default function Contact(props) {
 
   return (
     <div ref={skillsRef} class="skillsArea">
-         <div>
-        <h2>What I use</h2>
+         <div class="skillsTitle">
+        <h2>My developement Languages and Tools</h2>
       </div>
       <div class="monitorAndSkills">
-      <div>
+      <div class="entireSkills">
           <img class="skillsMonitor" src={Monitor}></img>
       </div>
        <div class="skillsDiv">

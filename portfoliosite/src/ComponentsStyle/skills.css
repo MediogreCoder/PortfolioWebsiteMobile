@@ -6,22 +6,27 @@
   height: 100vh;
   background-color: brown;
   background-color: rgba(244,191,28,255);
-  font-size: 20px;
-  color: whitesmoke}
+}
 
-  .monitorAndSkills{
+
+.skillsTitle{
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.monitorAndSkills{
 display:flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-  }
+}
 
 
-  .skillsMonitor{
-    height: 90vh;
-    width: auto;
-    z-index: 98;
-  }
+.skillsMonitor{
+height: 70vh;
+width: auto;
+z-index: 98;
+}
 
 
 .skillsDiv{
@@ -29,7 +34,7 @@ align-items: center;
   width: 40%;
   z-index: 99;
   position: absolute;
-  padding-bottom: 80px;
+  padding-bottom: 5%;
 }
   
   .skillLogo{
@@ -44,8 +49,12 @@ align-items: center;
 
   @media only screen and (max-width: 650px) {
 
+    .skillsTitle{
+      font-size: 22px;
+      color: whitesmoke;
+    }
+
     .skillsDiv{
-      font-size: 17px;
       width: 80%;
       padding-bottom: 50px;
     }
@@ -59,23 +68,20 @@ align-items: center;
 
 
     .skillsMonitor{
-      height: 60vh;
+      height: 35vh;
     }
 
   }
 
   @media only screen and (max-width: 450px) {
 
-    .skillsMonitor{
-      height: 40vh;
-    }
 
     .skillLogo{
       height: 23px;
     }
 
     .skillLogo:hover{
-      transform: scale(1.8);
+      transform: scale(2);
     }
 
   }
