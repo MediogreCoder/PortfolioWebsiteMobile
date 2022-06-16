@@ -40,7 +40,7 @@ z-index: 97;
   .skillLogo{
     height: 80px;
     transition-duration: 1s;
-    padding: 17px;
+    padding: 9px;
   }
   
   .skillLogo:hover{
@@ -78,7 +78,7 @@ z-index: 97;
 
 
     .skillLogo{
-      height: 23px;
+      height: 28px;
     }
 
     .skillLogo:hover{
