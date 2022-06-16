@@ -25,14 +25,14 @@ align-items: center;
 .skillsMonitor{
 height: 70vh;
 width: auto;
-z-index: 98;
+z-index: 97;
 }
 
 
 .skillsDiv{
   display: flex;
   width: 40%;
-  z-index: 99;
+  z-index: 98;
   position: absolute;
   padding-bottom: 5%;
 }
