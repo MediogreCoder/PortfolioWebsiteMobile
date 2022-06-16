@@ -9,7 +9,7 @@ export default function Contact(props) {
   return (
     <div ref={skillsRef} class="skillsArea">
          <div class="skillsTitle">
-        <h2>My developement Languages and Tools</h2>
+        <h2>My Developement Languages and Tools</h2>
       </div>
       <div class="monitorAndSkills">
       <div class="entireSkills">
