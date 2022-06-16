@@ -1,0 +1,62 @@
+.skillsArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: brown;
+  background-color: rgba(244,191,28,255);}
+
+  .monitorAndSkills{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+  }
+
+
+  .skillsMonitor{
+    height: 90vh;
+    width: auto;
+    z-index: 98;
+  }
+
+
+.skillsDiv{
+  display: flex;
+  width: 40%;
+  z-index: 99;
+  position: absolute;
+  padding-bottom: 80px;
+}
+  
+  .skillLogo{
+    height: 80px;
+    transition-duration: 1s;
+    padding: 17px;
+  }
+  
+  .skillLogo:hover{
+    transform: scale(1.4);
+  }
+
+  @media only screen and (max-width: 650px) {
+
+    .skillsDiv{
+      font-size: 17px;
+      width: 70%;
+    }
+    .skillLogo{
+      height: 30px;
+    }
+  
+    .skillsBox{
+      flex-wrap: wrap;
+    }
+
+
+    .skillsMonitor{
+      height: 60vh;
+    }
+
+  }

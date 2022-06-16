@@ -7,7 +7,9 @@ export default function Header(props) {
   const handleHomeClick = props.handleHomeClick
   const handleAboutClick = props.handleAboutClick
   const handleProjectClick = props.handleProjectClick
+  const handleSkillsClick = props.handleSkillsClick
   const handleContactClick = props.handleContactClick
+
   return (
     <div class="mainHeaderContainer">
     <div class="logoDiv">
@@ -23,6 +25,9 @@ export default function Header(props) {
       </div>
       <div  class="headerSect">
       <h2 class="sidelinks" onClick={handleProjectClick}>Projects</h2>
+          </div>
+          <div  class="headerSect">
+      <h2 class="sidelinks" onClick={handleSkillsClick}>Skills</h2>
       </div>
       <div class="headerSect">
       <h2 class="sidelinks" onClick={handleContactClick} >Contact</h2>

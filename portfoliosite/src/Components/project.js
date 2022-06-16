@@ -10,7 +10,8 @@ export default function Project(props) {
     <div ref={projectRef} class="projectArea">
       <div class="projectDiv">
         <div class='projTitle'>
-          <h1>Projects</h1>
+          <h5 id="portText">PORTFOLIO</h5>
+          <h2>Recent Projects</h2>
           </div>
         <div class='projectBox'>
           <Slideshow

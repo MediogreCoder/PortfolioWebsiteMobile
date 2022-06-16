@@ -3,13 +3,27 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* background-image: url('../images/black\ infinity.png'); */
   background-position: right;
   background-size: cover;
   background-position-x: 400px;
   background-position-y: 20px;
   background-repeat: no-repeat;
-  background-color: rgba(244,191,28,255);
+  background-color: rgb(244 191 28 / 90%);
+}
+
+.homeText{
+  display: flex;
+  align-items: center;
+}
+
+.imgDiv{
+  height: 10%;
+  width: auto;
+}
+
+.programmerVector{
+  height: 700px;
+  width: auto;
 }
 
 #welcomemsg{
@@ -17,9 +31,10 @@
 }
 
 .homeDiv{
+  display: flex;
+  flex-direction: row;
   font-size: 40px;
-  color: #1D1D1D;
-  margin-right: 200px;
+  color: whitesmoke;
   text-align: left;
 }
 
@@ -29,8 +44,11 @@
 
   .homeArea{
   background-size: cover;
-  background-position-x: 50px;
-  background-position-y: 350px;
+  }
+
+  .homeText{
+    display: flex;
+    justify-content: center;
   }
 
   #welcomemsg{
@@ -39,17 +57,20 @@
   
   .homeDiv{
     font-size: 20px;
-    margin-left: 50px;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+  }
+
+  .programmerVector{
+    height: 300px;
+    width: auto;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .homeArea{
     background-size: cover;
-    background-position-x: -75px;
-    background-position-y: 250px;
     }
-  .homeDiv{
-    margin-left: 50px;
-  }
+
 }
