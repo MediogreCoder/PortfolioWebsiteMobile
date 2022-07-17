@@ -1,5 +1,5 @@
 import '../ComponentsStyle/contact.css'
-import Resume from '../files/Evan_Mei_Resume_2022.pdf'
+import Resume from '../files/Evan_Mei_Resume.pdf'
 
 export default function Contact(props) {
   const contactRef = props.contactRef
